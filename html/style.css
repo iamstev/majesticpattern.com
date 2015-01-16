@@ -1,0 +1,224 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color:#CCCCCC;
+	background-image:url(background.png);
+	background-repeat:no-repeat;
+	background-position:50% 4px;
+}
+
+a:link {
+	text-decoration: none;
+	color:#CC0000;
+	font-weight:bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #CC0000;
+	font-weight:bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #CC9933;
+	font-weight:bold;
+}
+
+img{border:0px none;}
+
+img.wrapleft{
+	border: 0px none;
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 0px;
+}
+
+img.wrapright{
+	border: 0px none;
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 0px;
+}
+
+img.fuse{
+	padding:0;
+	margin:0;
+	border: 0px none;
+	display: block;
+}
+
+.nomargin {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.notopmargin {
+	margin-top:0;
+}
+
+
+
+
+
+
+#holder{
+	width:798px;
+	margin:0 auto;
+	padding:0;
+	background-color:#FFFFFF;
+	color: #000000;
+	font-family: arial;
+	font-size: 10pt;
+	border-top:1px solid #660000;
+	border-right:1px solid #660000;
+	border-left:1px solid #660000;
+	background-image:url(banner.jpg);
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+#content{
+	margin: 100px 20px 0px 20px;
+	padding:0;
+	width: 760px;
+	min-height:400px;
+}
+
+.col1{
+	width: 370px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+}
+
+.col2{
+	width: 370px;
+	margin:0px 0px 0px 10px;
+	float: left;
+}
+
+.col1 img{
+	margin-bottom: 20px;
+	display:block;
+}
+
+.col2 img{
+	margin-bottom: 20px;
+	display:block;
+}
+
+.widepic{
+	 clear:both;
+}
+
+.widepic img{
+	margin-bottom: 20px;
+	display:block;
+}
+
+
+#topholder{
+	width:800px;
+	margin:-20px auto -20px;
+	padding:0;
+}
+
+#nav{
+	width:300px;
+	height: 30px;
+	padding:0;
+	float:right;
+	margin-right:-8px;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+
+
+#nav ul li, 
+#nav ul li a {
+	float: left;
+	display: block;
+	padding:0;
+	margin:0;
+}
+
+#nav ul li a {
+	height:22px;
+	width: 84px;
+	text-align:center;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top:8px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color:#F8F8F8;
+}
+
+#nav ul li a:link {
+	text-decoration: none;
+	color:#660000;
+}
+
+#nav ul li a:visited {
+	text-decoration:none;
+	color: #660000;
+}
+
+#nav ul li a:hover {
+	text-decoration: none;
+	color: #660000;
+	background-color:#DDDDDD;
+}
+
+#siteheader {
+	width:119px;
+	height:143px;
+	background-image:url(MajesticPatternLogo.png);
+	background-repeat:no-repeat;
+	background-position: top center;
+	font-size:.1px;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:-42px;
+	top:85px;
+}
+
+#siteheader span {
+	display:block;
+	width:0px;
+	height:0px;
+	overflow:hidden;
+}
+	
+#footer{
+	border-top:5px solid #660000;
+	margin:0;
+	padding:0 20px;
+	background:#999999;
+	color: #000000;
+	font-family: arial;
+	font-size: 10pt;
+	min-height:400px;
+}
+
+#footer a:link {
+	text-decoration: none;
+	color:#000000;
+	font-weight:normal;
+}
+#footer a:visited {
+	text-decoration: none;
+	color: #000000;
+	font-weight:normal;
+}
+#footer a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+	font-weight:normal;
+}
+
